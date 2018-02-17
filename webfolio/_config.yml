@@ -1,2 +1,3 @@
 name: Inês Martins | Design
 markdown: kramdown
+permalink: /blog/:title
