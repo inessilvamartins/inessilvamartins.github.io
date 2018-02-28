@@ -265,10 +265,7 @@ input[type="submit"]{
 
 
 @media screen and (max-width: 500px){
-   .barra_nav{
-   	font-size: 20px;
-   	padding-right: 30px;
-   }
+   
 
  .container_work{
 	width: 100%;
