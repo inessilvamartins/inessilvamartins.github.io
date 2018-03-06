@@ -288,11 +288,6 @@ input[type="submit"]{
 }
 
 
-@media only screen and (max-device-width: 319px){
-	.barra_nav{
-   	font-size: 10%;
-   }
-}
 
 /* ----------- iPhone 4 and 4S ----------- */
 
