@@ -289,61 +289,57 @@ input[type="submit"]{
 
 
 
-/* ----------- iPhone 4 and 4S ----------- */
+/*------------- MEDIA QUERIES -----------------*/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-device-width:319px){
 	.barra_nav{
-   	font-size: 14px;
-   }
+		font-size:12px;
+	}
 }
 
 
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-.barra_nav{
-   	font-size: 14px;
-   }
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
-.barra_nav{
-   	font-size: 18px;
- 	
-   }
-}
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-.barra_nav{
-   	font-size: 18px;
-  
-   }
-}
+@media only screen and (min-device-width:320px) and (max-device-width:399px){
+	.barra_nav{
+		font-size:14px;
+	}
 }
 
 
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
-.barra_nav{
-   	font-size: 18px;
-
-   }
+@media only screen and (min-device-width:400px) and (max-device-width:599px){
+	.barra_nav{
+		font-size:16px;
+	}
 }
 
+@media only screen and (min-device-width:600px) and (max-device-width:899px){
+	.barra_nav{
+		font-size:18px;
+	}
+}
 
+@media only screen and (min-device-width:900px) and (max-device-width:1199px){
+	.barra_nav{
+		font-size:20px;
+	}
+}
 
+@media only screen and (min-device-width:1200px) and (max-device-width:1799px){
+	.barra_nav{
+		font-size:24px;
+	}
+}
 
+@media only screen and (min-device-width:1800px) and (max-device-width:2000px){
+	.barra_nav{
+		font-size:28px;
+	}
+}
 
+@media only screen and (min-device-width:2001px){
+	.barra_nav{
+		font-size:36px;
+	}
+}
 
 
 
