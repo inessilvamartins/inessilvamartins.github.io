@@ -287,12 +287,12 @@ input[type="submit"]{
 	}
 }
 
+
 /* ----------- iPhone 4 and 4S ----------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 	.barra_nav{
-   	font-size: 14px;
-	padding:10px;
+   	font-size: 16px;
    }
 }
 
@@ -302,9 +302,7 @@ input[type="submit"]{
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 .barra_nav{
-   	font-size: 14px;
-	padding:10px;
-
+   	font-size: 16px;
    }
 }
 
